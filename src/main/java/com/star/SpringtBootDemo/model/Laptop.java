@@ -1,4 +1,4 @@
-package com.star.SpringtBootDemo;
+package com.star.SpringtBootDemo.model;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
