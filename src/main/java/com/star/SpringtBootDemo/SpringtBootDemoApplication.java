@@ -19,6 +19,7 @@ public class SpringtBootDemoApplication {
 		//How we will communicate with or container.
 		Alein obj = context.getBean(Alein.class); // Now our IOC will only give the obj if it will be in the container. (we are just assuming that the obj is present in the container).
 		obj.code();
+		System.out.println(obj.getAge());
 
 		// Let try and create another object.
 		// Even though it is giving us the output we want, but the question is are we getting the same obj (from the IOc container)? --> We will learn this when we will get to know the spring framwork
